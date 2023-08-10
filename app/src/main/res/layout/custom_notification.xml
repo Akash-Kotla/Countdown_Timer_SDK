@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/custom_notification_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <TextView
+            android:id="@+id/notificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="Brand Push Notification" />
+
+
+    <TextView
+            android:id="@+id/notificationContent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notificationTitle"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Content 1" />
+
+        <TextView
+            android:id="@+id/notificationContent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notificationContent1"
+            android:textSize="18sp"
+            android:textColor="#F00"
+            android:text="Content 2" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/countdowntimer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_toStartOf="@id/notificationContent1">-->
+
+
+
+    </RelativeLayout>
+
+
+
